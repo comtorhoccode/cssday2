@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 900px;
+    height: 900px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.title1{
+    margin-bottom: 20px;
+}
+.box{
+    display: block;
+    width: 900px;
+    height: 500px;
+    background-color: gray;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    line-height: 500px;
+}
+.title2{
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 30px;
+}
+.button{
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: aqua;
+}
