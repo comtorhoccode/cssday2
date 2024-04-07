@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    margin-top: 50px;
+}
+ul li{
+    display: inline-block;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin: 20px;
+    padding: 60px;
+    line-height: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+.title-underline{
+    width: 1250px;
+    border-bottom: 2px solid gray;
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.title {
+    position: absolute;
+    background-color: white;
+    width: 550px;
+    left: 50%;
+    top: 3%;
+    transform: translateX(-50%);
+}
