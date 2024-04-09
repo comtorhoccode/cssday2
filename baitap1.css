@@ -6,27 +6,31 @@ h1 {
     text-align: center;
 }
 
-ul{
-    text-align: center;
-    margin-top: 50px;
+.content {
+    padding-top: 50px;
 }
-ul li{
+.bt1 {
+    /*Set width nên dùng đơn vị % */
+    width: 95%;
+    margin: auto;
+}
+
+.content div{
     display: inline-block;
     height: 100px;
     background-color: cornflowerblue;
-    margin: 20px;
-    padding: 60px;
     line-height: 100px;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
+    width: 20%;
+    text-align: center;
 }
 
 .title-underline{
-    width: 1250px;
     border-bottom: 2px solid gray;
     position: relative;
-    margin-top: 50px;
     left: 50%;
+    height: 50px;
     transform: translateX(-50%);
 
 }
@@ -35,6 +39,6 @@ ul li{
     background-color: white;
     width: 550px;
     left: 50%;
-    top: 3%;
+    top: 25px;
     transform: translateX(-50%);
 }
